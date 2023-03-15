@@ -4,8 +4,6 @@ clc;
 
 k = 20;
 
-addpath('./cifar10/');   
-
 load('cifar10_embedding_train.mat'); 
 trainX = data(:, 1:512);
 trainY = data(:, 513); 
